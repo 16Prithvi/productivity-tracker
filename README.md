@@ -16,7 +16,14 @@ The central hub displaying your chronological timeline, task progress, and the a
 *Left:* A modal where you can describe your day in plain English.
 *Right:* The final generated plan that populates your dashboard with specific time slots.
 
-<p align="center"> <img width="45%" alt="AI Plan Input" src="https://github.com/user-attachments/assets/e2b2ce67-6118-4176-8716-2e9c67138e9e" /> &nbsp; <img width="40%" alt="AI Generated Plan" src="https://github.com/user-attachments/assets/2a0fa820-bf78-4919-914d-81f3f536a1ff" /> </p>
+## 🧩 How AI Planning Works
+1. **Natural Language Input**: User enters goals.
+2. **Constraint Logic**: Availability and constraints are formatted.
+3. **Gemini API Processing**: Generates a structured JSON schedule.
+4. **Dashboard Integration**: Plan converts into actionable timeline cards.
+
+
+<p align="center"> <img width="45%" alt="AI Plan Input" src="https://github.com/user-attachments/assets/e2b2ce67-6118-4176-8716-2e9c67138e9e" /> &nbsp; <img width="35%" alt="AI Generated Plan" src="https://github.com/user-attachments/assets/2a0fa820-bf78-4919-914d-81f3f536a1ff" /> </p>
 ## 🚀 Key Features
 
 ### 🧠 AI Plan My Day
@@ -77,9 +84,3 @@ The central hub displaying your chronological timeline, task progress, and the a
    ```bash
    npm run dev
    ```
-
-## 🧩 How AI Planning Works
-1. **Natural Language Input**: User enters goals.
-2. **Constraint Logic**: Availability and constraints are formatted.
-3. **Gemini API Processing**: Generates a structured JSON schedule.
-4. **Dashboard Integration**: Plan converts into actionable timeline cards.
