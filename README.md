@@ -2,15 +2,14 @@
 
 FocusFlow is an AI-powered productivity web application designed to help users plan, track, and execute their daily tasks with clarity and focus. It bridges the gap between vague goals and clear execution by combining intelligent scheduling, task tracking, and focused work sessions into a single, minimal dashboard.
 
-## �️ Preview
+## 🖼️ Preview
 The screenshots below illustrate the core workflow of FocusFlow. By using the Gemini 2.5 Flash API, the app converts natural language goals into a structured, time-blocked daily routine.
 
 **1. Central Dashboard**
 The central hub displaying your chronological timeline, task progress, and the active Focus Clock.
 
 <p align="center">
- <img width="842" height="720" alt="Screenshot 2025-12-26 212310" src="https://github.com/user-attachments/assets/929da5db-1e33-4daf-b8a6-72627f785033" />
-
+ <img width="90%" alt="FocusFlow Dashboard" src="https://github.com/user-attachments/assets/929da5db-1e33-4daf-b8a6-72627f785033" />
 </p>
 
 **2 & 3. AI Planning Flow**
@@ -18,13 +17,12 @@ The central hub displaying your chronological timeline, task progress, and the a
 *Right:* The final generated plan that populates your dashboard with specific time slots.
 
 <p align="center">
- <img width="836" height="627" alt="Screenshot 2025-12-26 211946" src="https://github.com/user-attachments/assets/e2b2ce67-6118-4176-8716-2e9c67138e9e" />
-
- <img width="842" height="627" alt="Screenshot 2025-12-26 212155" src="https://github.com/user-attachments/assets/2a0fa820-bf78-4919-914d-81f3f536a1ff" />
-
+ <img width="45%" alt="AI Plan Input" src="https://github.com/user-attachments/assets/e2b2ce67-6118-4176-8716-2e9c67138e9e" />
+ &nbsp;
+ <img width="45%" alt="AI Generated Plan" src="https://github.com/user-attachments/assets/2a0fa820-bf78-4919-914d-81f3f536a1ff" />
 </p>
 
-## �🚀 Key Features
+## 🚀 Key Features
 
 ### 🧠 AI Plan My Day
 - Generate a realistic, time-based daily schedule using AI.
