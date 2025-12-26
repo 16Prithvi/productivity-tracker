@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+# ⚡ FocusFlow — Smart Productivity Platform
 
-## Project info
+FocusFlow is an AI-powered productivity web application designed to help users plan, track, and execute their daily tasks with clarity and focus. It bridges the gap between vague goals and clear execution by combining intelligent scheduling, task tracking, and focused work sessions into a single, minimal dashboard.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## �️ Preview
+The screenshots below illustrate the core workflow of FocusFlow. By using the Gemini 2.5 Flash API, the app converts natural language goals into a structured, time-blocked daily routine.
 
-## How can I edit this code?
+**1. Central Dashboard**
+The central hub displaying your chronological timeline, task progress, and the active Focus Clock.
 
-There are several ways of editing your application.
+<p align="center">
+ <img width="842" height="720" alt="Screenshot 2025-12-26 212310" src="https://github.com/user-attachments/assets/929da5db-1e33-4daf-b8a6-72627f785033" />
 
-**Use Lovable**
+</p>
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**2 & 3. AI Planning Flow**
+*Left:* A modal where you can describe your day in plain English.
+*Right:* The final generated plan that populates your dashboard with specific time slots.
 
-Changes made via Lovable will be committed automatically to this repo.
+<p align="center">
+ <img width="836" height="627" alt="Screenshot 2025-12-26 211946" src="https://github.com/user-attachments/assets/e2b2ce67-6118-4176-8716-2e9c67138e9e" />
 
-**Use your preferred IDE**
+ <img width="842" height="627" alt="Screenshot 2025-12-26 212155" src="https://github.com/user-attachments/assets/2a0fa820-bf78-4919-914d-81f3f536a1ff" />
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+</p>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## �🚀 Key Features
 
-Follow these steps:
+### 🧠 AI Plan My Day
+- Generate a realistic, time-based daily schedule using AI.
+- Accepts natural language goals (e.g., "Study DSA, Work on React project, Busy from 2-4 PM").
+- Automatically respects available start times, unavailable slots, and breaks.
+- Powered by **Google Gemini 2.5 Flash API**.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🗓️ Smart Daily Timeline
+- Clear, chronological view of today’s tasks.
+- Visual separation for Focus Sessions, Breaks, and Completed Tasks.
+- Easy task status updates to keep you on track.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### ⏱️ Focus Clock
+- Built-in focus timer for deep work sessions.
+- Encourages time-boxed productivity.
+- Helps track daily focus goals vs. actual time spent.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 📌 Task & Revision Management
+- Track tasks completed vs. total.
+- Bookmark important topics for revision.
+- Categorize tasks (DSA, Dev, Cloud, etc.) for better organization.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Tech Stack
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+**Frontend**
+- React + TypeScript
 - Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Tailwind CSS (Styling)
+- Framer Motion (Animations)
 
-## How can I deploy this project?
+**Backend / Services**
+- **Gemini 2.5 Flash API** (AI scheduling engine)
+- **Supabase** (Authentication & Database)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📦 Installation
 
-## Can I connect a custom domain to my Lovable project?
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd fullfocuss
+   ```
 
-Yes, you can!
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+3. Set up environment variables:
+   Create a `.env` file in the root directory and add:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   VITE_GEMINI_API_KEY=your_gemini_api_key
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🧩 How AI Planning Works
+1. **Natural Language Input**: User enters goals.
+2. **Constraint Logic**: Availability and constraints are formatted.
+3. **Gemini API Processing**: Generates a structured JSON schedule.
+4. **Dashboard Integration**: Plan converts into actionable timeline cards.
