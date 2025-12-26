@@ -12,11 +12,12 @@ The central hub displaying your chronological timeline, task progress, and the a
  <img width="90%" alt="FocusFlow Dashboard" src="https://github.com/user-attachments/assets/929da5db-1e33-4daf-b8a6-72627f785033" />
 </p>
 
-**2 & 3. AI Planning Flow**
+### 2 & 3. AI Planning Flow**
 *Left:* A modal where you can describe your day in plain English.
 *Right:* The final generated plan that populates your dashboard with specific time slots.
 
-## 🧩 How AI Planning Works
+FocusFlow’s **AI Planning Flow** is powered by the **Google Gemini 2.5 Flash API**, which transforms vague, natural language goals into a structured, actionable daily routine.
+
 1. **Natural Language Input**: User enters goals.
 2. **Constraint Logic**: Availability and constraints are formatted.
 3. **Gemini API Processing**: Generates a structured JSON schedule.
