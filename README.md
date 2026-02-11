@@ -6,7 +6,7 @@ FocusFlow is an AI-powered productivity web application designed to help users p
 The screenshots below illustrate the core workflow of FocusFlow. By using the Gemini 2.5 Flash API, the app converts natural language goals into a structured, time-blocked daily routine.
 
 **1. Central Dashboard**
-The central hub displaying your chronological timeline, task progress, and the active Focus Clock.
+The central hub displays your chronological timeline, task progress, and the active Focus Clock.
 
 <p align="center">
  <img width="90%" alt="FocusFlow Dashboard" src="https://github.com/user-attachments/assets/929da5db-1e33-4daf-b8a6-72627f785033" />
